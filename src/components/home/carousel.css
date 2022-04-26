@@ -1,0 +1,47 @@
+.carousel{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.image_div{
+    height: 100%;
+    width: 100%;
+    background: blue;
+    position: absolute;
+    opacity: .5;
+}
+.over{
+    height: 500px;
+    width:auto;
+    background-color: rgb(8, 8, 170,.5);
+    position: absolute;
+}
+
+.image{
+    max-height: fit-content;
+    max-width: 100%;
+}
+.button{
+    margin: 10px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    background-color: white;
+    color: black;
+}
+.button:hover{
+    color: rgb(2, 75, 75);
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.buttons{
+    
+    background: white;
+    transition: all .3s linear;
+
+}
