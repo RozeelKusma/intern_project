@@ -136,20 +136,10 @@
    align-items: center;
    flex-direction: column;
    justify-content: space-evenly;
-   background-color: rgb(0, 92, 156);
+   background-color: rgb(25,108,165);
     padding: 60px;
 }
-.play_btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-    width: 90px;
-    background-color: aliceblue;
-    color: rgb(0, 92, 156);
-    border: none;
-    border-radius: 10px;
-}
+
 .title1{
     display: flex;
     color: aliceblue;
@@ -160,11 +150,6 @@
 }
 .para{
     display: flex;
-    color: aliceblue;
-}
-.play_btn:hover{
-    border: 2px solid white;
-    background-color: rgb(0, 92, 156);
     color: aliceblue;
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
 import './home.css';
-import {BsChatSquareQuote, BsPlay} from 'react-icons/bs'
-
+import {BsChatSquareQuote} from 'react-icons/bs'
 import CarouselContainer from './CarouselContainer';
+import Footer from '../bottom container/Footer';
+import Play from '../video play/Play';
 
 const Home = () => {
   const data=[
@@ -90,12 +91,14 @@ const Home = () => {
           </div>
         
          <div className="play">
-            <button className='play_btn'><BsPlay size={25}/></button>
+            <Play/>
             <h5 className='title1'>CREATE YOUR OWN EXPERIENCE</h5>
             <h2 className='title2'>How Do we Help You To Grow?</h2>
             <p className='para'>There are many variations of passages of Lorem Ipsum available, but the majortiy have suffered alteration in some form.</p>
           
          </div>
+         <Footer/>
+         
     </div>
         
         

@@ -3,15 +3,14 @@ import {FiPlay} from 'react-icons/fi';
 import './carousel.css';
 import image1 from './../../assets/images/1.jpeg';
 import image2 from './../../assets/images/2.jpg';
-import image3 from './../../assets/images/3.jpg';
-import image4 from './../../assets/images/4.jpg';
+
 
 
 const CarouselContainer = () => {
   
   return (
     <div className='carousel'>
-          <Carousel interval={5000} fade="true">
+          <Carousel interval={5000}>
       <Carousel.Item>
        <div className=' image_div'></div>
         <img
@@ -48,31 +47,7 @@ dummy text ever since.</p>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-      <div className=' image_div'></div>
-        <img
-          className="d-block w-100 image"
-          src={image3}
-          alt="Third slide"
-        />
-        <Carousel.Caption className='caption'>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className=' image_div'></div>
-
-        <img
-          className="d-block w-100 image"
-          src={image4}
-          alt="Fourth slide"
-        />
-        <Carousel.Caption className='caption'>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+     
     </Carousel>
     </div>
     
