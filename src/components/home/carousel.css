@@ -8,23 +8,19 @@
 }
 
 .image_div{
-    height: 100%;
+    height: 500px;
     width: 100%;
     background: rgb(53,121,166);
     position: absolute;
-    opacity: .4;
+    opacity: .5;
 }
-.over{
-    height: 500px;
-    width:auto;
-    background-color: rgb(8, 8, 170,.5);
-    position: absolute;
-}
-
 .image{
-    max-height: fit-content;
+    
+    max-height: 500px;
     max-width: 100%;
 }
+
+
 .button{
     margin: 10px;
     height: 50px;

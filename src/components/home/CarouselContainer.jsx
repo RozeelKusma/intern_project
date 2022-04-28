@@ -36,7 +36,7 @@ dummy text ever since.</p>
         <img
           className="d-block w-100 image"
           src={image2}
-          alt="Third slide"
+          alt="Second slide"
         />
         <Carousel.Caption className='caption'>
           <div >
