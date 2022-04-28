@@ -1,0 +1,34 @@
+.main_projects{
+    display: flex;
+    justify-content: center;
+    
+}
+.p_top{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    width: 75%;
+    height: auto;
+
+}
+.left_top_p{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+.left_heading{
+    display: flex;
+}
+.left_desc{
+    display: flex;
+    color: rgb(0, 0, 0, .5);
+}
+.right_top_i{
+    display: flex;
+    padding: 20px;
+}
+.right_i{
+    width: auto;
+    height: auto;
+}
