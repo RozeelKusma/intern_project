@@ -1,12 +1,11 @@
 import React from 'react'
-import './impacts.css'
-import { Link } from 'react-router-dom'
+import './projectdetails.css'
 import {TiTick} from 'react-icons/ti'
 import Footer from './../../bottom container/Footer'
 import {AiFillFacebook, AiFillTwitterSquare,AiOutlineGoogle} from 'react-icons/ai'
 import {BsPinterest} from 'react-icons/bs'
 
-const Impacts = () => {
+const ProjectDetails = () => {
     const impact = [
         {
             img:"https://dummyimage.com/200x150/000/fff",
@@ -35,17 +34,6 @@ const Impacts = () => {
         </div>
         <div className="right_top_im">
           <img className='right_im' src='https://satishnepal.gitlab.io/shaper/assets/images/portfolio/project-details.jpg' alt='600X400'/>
-          <div className="p_info">
-            <div className="pro_i">Project info</div>
-            <div className="hrs"></div>
-           
-            <div className="info_pb">
-
-            <p className="pb">Projects By: <Link to='#' className='sh_link'> Shapers</Link> </p>
-            <p className="date">Date:<span> June 21, 2023</span></p>
-            <p className='date'>Location: <span> Kathmandu</span></p>
-            </div>
-          </div>
         </div>
       </div>
       <div className="pd_mid">
@@ -105,4 +93,4 @@ const Impacts = () => {
   )
 }
 
-export default Impacts
+export default ProjectDetails

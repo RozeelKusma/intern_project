@@ -23,7 +23,7 @@ const Nav = () => {
             <div className="dropdown">
                 <button className="dropbtn list"><Link to='/projects' className='links'>Projects</Link></button>
                 <div className="dropdown-content">
-                <Link to='/projects' className='links'>Project Details</Link>
+                <Link to='/project-details' className='links'>Project Details</Link>
                 <Link to='/impacts' className='links'>Impact Details</Link>
                 </div>
             </div>

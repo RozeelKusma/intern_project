@@ -1,13 +1,12 @@
 .main_projects{
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
 }
 .p_top{
     display: flex;
     flex-direction: row;
-    padding: 40px;
-    width: 75%;
+   justify-content: center;
+    width: 100%;
     height: auto;
 
 }
@@ -32,3 +31,73 @@
     width: auto;
     height: auto;
 }
+.p_mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.nop{
+    display: flex;
+    width: 37%;
+    justify-content: center;
+}
+.nop_title{
+    display: flex;
+}
+.p_boxes{
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+}
+.p_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p_box_imgs{
+    display: flex;
+    height:auto;
+    width: 100%;
+    
+}
+.p_box_img{
+    display: flex;
+    height: 90%;
+    width: 80%;
+    transition: all 0.8s linear;
+}
+.p_box-img:hover{
+    transform: scale(1.1);   
+
+}
+.p_box_title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.p_box_time{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0, .5);
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+@media screen and (max-width:1130px) {
+    .p_boxes{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:785px) {
+    .p_boxes{
+        grid-template-columns: auto;
+        
+    }
+}
+

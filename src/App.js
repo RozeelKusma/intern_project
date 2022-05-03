@@ -10,6 +10,7 @@ import JoinUs from './components/joinus/JoinUs';
 import Alumini from './components/about/alumini/Alumini';
 import Impacts from './components/projects/impacts/Impacts';
 import Sponsor from './components/joinus/sponsor/Sponsor';
+import ProjectDetails from './components/projects/details/ProjectDetails';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/about_us' element={<About/>} />
           <Route path='/alumini' element={<Alumini/>}/>
           <Route path='/projects' element={<Projects/>}/>
+          <Route path='/project-details' element={<ProjectDetails/>}/>
           <Route path='/impacts' element={<Impacts/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/shaper' element={<JoinUs/>}/>
