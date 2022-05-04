@@ -1,4 +1,4 @@
-.play_btn{
+.play_bt{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,7 @@
     border: none;
     border-radius: 10px;
 }
-.play_btn:hover{
+.play_bt:hover{
     border: none;
     background-color: rgb(25,108,165,.5);
     color: aliceblue;

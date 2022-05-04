@@ -19,7 +19,7 @@ const Play = () => {
   };
   return (
     
-      <button onClick={openModal} className="play_btn">
+      <button onClick={openModal} className="play_bt">
         <BsPlay size={40}/>
         {modal ? (
           <section className="modal__bg">
